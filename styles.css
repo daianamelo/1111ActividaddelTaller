@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Alinear las tarjetas en el espacio disponible */
+}
+
+
+#containerDeCards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Mostrar exactamente 4 tarjetas por fila */
+    gap: 16px; /* Espacio entre las tarjetas (ajusta según tus preferencias) */
+}
